@@ -4,7 +4,7 @@ public class SaqueService {
 
     public boolean podeSacar(int valor){
         //maior igual a 10; menor = 2000; nota de
-        return valor>=10 && valor<=2000 &&  valor%10 == 0;
+        return valor>=10 && valor<=3000 &&  valor%10 == 0;
     }
 }
 
